@@ -115,7 +115,6 @@ const obj_metodos = {
          pergunta_10: prompt(' Deseja mudar de vida ? ').toLowerCase(),
     }
 
-    
     if(teste_2.pergunta_6 == 'sim'){
         afinidade++
     }
@@ -385,21 +384,11 @@ status_nvl = 'Indefinido'
                                     }
                                 }, 5000); 
                                 }   
-    
                             }, 1500*10);
-                        
-                  
-                        }, 1500*10);
-                    
-                    //---
-                         
-                    }, 1500*10);
-                    
-                
-                    
+                        }, 1500*10);        
+                    }, 1500*10);    
                 }, 1500*10);
-            }, 1500*10);
-            
+            }, 1500*10); 
         } 
         // SEGUNDA ESCOLHA    
         if (escolha_2 === 'b')
@@ -410,8 +399,6 @@ status_nvl = 'Indefinido'
             setTimeout(() => {perguntas()}, 7000);
         }}, 7000); 
     }
-   
-
     if(escolha_caminho == 'caminho do bem'){
         obj_metodos.data_horas();
         obj_metodos.status_personagem();
@@ -703,17 +690,12 @@ status_nvl = 'Indefinido'
                         {
                         console.log(' Por favor, digite apenas : SIM / NAO');
                         retry = prompt(' Digite novamente : ').toLowerCase();
-                        };}, 3000);                       
-                               
+                        };}, 3000);                               
                     }
-                }, 3000); 
-
-                
+                }, 3000);   
         }}, 7000); 
     }
-
 }   
 
 game();
 
-// LEMBRETE ( ADICIONAR CONTAGEM DE ANOS COM >> ARRAY + FOR )
