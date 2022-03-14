@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&family=Sora:wght@100;200;400;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    overflow-x:hidden;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Sora', sans-serif;    
+
+
+}
+::-webkit-scrollbar{width:7px;}
+::-webkit-scrollbar-track{background:#7d7d7d;border-radius:5px;}
+::-webkit-scrollbar-thumb{background:#d9d9d9;border-radius:5px;}
+
+/* _________________ NAVBAR _________________ */ 
+
+header{
+    background-color: rgb(72, 72, 72);
+    text-align: left;
+    
+}
+.titulo{
+    padding: 20px 0 5px 2%;
+    font-family: 'Sora';
+    font-size: 24px ;
+    font-weight: 700;
+    color: white;  
+}
+.titulo_nav{
+    padding: 20px 0 5px 5%;
+    font-family: 'Sora';
+    font-size: 24px ;
+    font-weight: 700;
+    color: white;  
+}
+.barra{
+    display: flex;
+    justify-content: center;
+}
+.line{
+    margin-left: 5%;
+    width: 25%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.131);
+}
+.line_2{
+    margin-top: 1%;
+    width: 90%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.131);
+}
+.descricao{
+    padding: 5px 0 20px 0;
+    color: rgba(255, 255, 255, 0.583);
+    font-weight: 400;
+}
+.descricao_nav{
+    padding: 5px 0 20px 5%;
+    color: rgba(255, 255, 255, 0.583);
+    font-weight: 400;
+}
+
+/* _________________ SESSION 01 _________________ */ 
+
+.game_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(89, 89, 89);
+    justify-content: center;
+   
+}
+.box_game{
+    width: 90%;
+   height: 66%;
+   margin: 5%;
+   
+    display: flex;
+
+    
+}
+.box{
+    width: 50%;
+    height: 100%;
+    
+}
+
+.left{
+    background-color: rgb(128, 27, 27);
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+    width: 90%;
+    
+    margin: 5%;
+}
+.right{
+    
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius:  10px;
+    width: 100%;
+    display: flex;
+}
+
+.carro{
+    color: white;
+    font-size: 32px;
+    
+}
+.texto{
+    width: 50%;
+    height: 50px;
+    margin: 0 0 0 6%;
+}
+.caracteristicas{
+    
+    width: 90%;
+    
+    margin: 0 0 0 6%;
+   color: white;
+   
+}
+.title{
+    font-size: 18px;
+    font-weight: 500;
+    display: flex;
+    margin-top: 2%;
+}
+.marca_Carro{
+    font-weight: 100;
+    margin-left: 1%;
+}
+.descricao{
+    color: white;
+    width: 100%;
+    font-weight: 100;
+    justify-content: left;
+}
+.btn{
+    margin-left:5%;
+    margin-bottom:6%;
+    width: 90%;
+    height: 10%;
+    font-size: 24px;
+    background-color: rgb(33, 33, 33);
+    color: white;
+    border: none;
+
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+
+    font-weight: 500;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+/* _________________ BOX _________________ */ 
+
+.box_1{
+    background-color: rgb(99, 99, 99);
+width: 100%;
+height: 100%;
+overflow-y:hidden;
+-webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius: 0 10px 10px 0;
+    border-radius: 0 10px 10px 0;
+    
+}
+.box_2{
+background-color: rgb(89, 89, 89);
+
+width: 40%;
+height: 100%;
+
+}
+.box_3{
+    background-color: rgb(99, 99, 99);
+width: 70%;
+height: 100%;
+overflow-y:hidden;
+-webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+
+/* _________________ BOX - IMAGENS _________________ */ 
+
+.middle{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 60%;
+    font-size: 142px;
+}
+.sub_middle{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 24%;
+    font-size: 142px;
+}
+.sub_middle_2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 34%;
+    font-size: 142px;
+}
+
+
+.invisible{
+    display: none;
+}
+
+
+.imagens{
+    width: 100%;
+    height: 100%;
+    
+}
+
+/* _________________ FOOTER _________________ */ 
+
+footer{
+    background-color: rgb(33, 33, 33);
+    width: 100%;
+    color: rgb(89, 89, 89);
+    text-align: center;
+    
+}
+.text_footer{
+    padding: 2%;
+}
